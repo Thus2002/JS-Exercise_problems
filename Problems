@@ -55,6 +55,22 @@ const x = {
   lastName: "Doe"
 };                        // Object
 
+2.Use comments to describe the correct data type of the following variables:
+let age = 25;              // Number
+let firstName = "Alice";   // String
+const isStudent = true;    // Boolean
+let fruits = ['apple', 'banana', 'orange']; // Array
+let person = {             // Object
+  name: "John",
+  age: 30,
+  isMarried: false
+};
+let temperature = 23.5;    // Number (Float)
+let grades = [80, 85, 90]; // Array of Numbers
+const today = new Date();  // Date Object
+let isValid = null;        // Null
+let car;                   // Undefined
+
 
 ->EXERCISE PROBLEMS ON FUNCTIONS:-
 
