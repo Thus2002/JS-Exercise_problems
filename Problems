@@ -197,6 +197,10 @@ EXERCISE PROBLEMS ON ARRAYSORT:-
 const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
 fruits.sort();
 
+2.Use the correct Array method to sort the array.
+arr = ["Mary", "Tom", "Abhi", "Neil"];
+arr.sort();
+
 EXERCISE PROBLEMS ON DATES:-
 
 1.Create a Date object and alert the current date and time.
