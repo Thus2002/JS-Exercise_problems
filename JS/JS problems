@@ -1,0 +1,192 @@
+1. Variables(var)
+   <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             var firstName = "Hello World";
+             dopcument.write(firstName);
+        </script>
+   </head>
+   </html>
+ 
+2. Variables(let & const)
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             let firstName = "Yahoo";
+             dopcument.write(firstName);
+              const second = "Hello";
+             dopcument.write(second);
+        </script>
+   </head>
+   </html>
+
+3.Data types
+   <!DOCTYPE html>
+   <html>
+   <head>
+        <title>JavaScript</title>
+        <script>
+             var x = 'y';
+             x = -34,50;
+             x = undefined;
+             x = ["HTML","CSS","JS"];
+             x = {
+                    name = "Yahoo Baba",
+                    country = "India"
+             }
+             dopcument.write(x);
+             dopcument.write("<br>");
+             dopcument.write(typeof x);
+        </script>
+   </head>
+   </html>
+
+4. Airthmetic operator
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             var a = 10;
+             var b = 3;
+             var c = a + b * 2;
+             dopcument.write(c);
+        </script>
+   </head>
+   </html>
+
+5. Assignment operator
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             var a = 10;
+             var b = 3;
+             a**=b;
+             dopcument.write(a);
+        </script>
+   </head>
+   </html>
+
+6. Comparison operator
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             var a = 10;
+             var b = "10";
+            
+             console.log(20 <= 20);
+        </script>
+   </head>
+   </html>
+
+7. Logical operators
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             var a = 100;
+             var b = 50;
+             if(!a >= b){
+                 console.log("Yes you are eligible");
+             }
+        </script>
+   </head>
+   </html>
+
+8. If Statement
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             var a=100;
+             var b="100";
+             if(a == b){
+                 document.write("Yahoo Baba);
+             }
+        </script>
+   </head>
+   </html>
+  
+9. If Else Statement
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             var name = "Yahoo Baba";
+             var gender = "Male";
+             if(gender == "Male"){
+                 document.write("Hello Mr." + name);
+             }else{
+                 document.write("Hello Miss." + name);
+        </script>
+   </head>
+   </html>
+  
+10. Switch case
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             var age = 15;
+             switch(true) {
+                 case (age >= 15 && age <= 20) :   
+                     document.write("You are eligible");
+                 break;
+                 case (age >= 21 && age <= 30) :   
+                     document.write("You are not eligible");
+                 break;
+                 default : 
+                     document.write("Enter the valid age : ");
+        </script>
+   </head>
+   </html>
+  
+11. Functions
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             function hello() {
+                 document.write("Hello Everybody");
+             }
+             function yahoo() {
+                 document.write("Hello Yahoo Baba");
+             }
+             hello();
+             document.write("<br>");
+             document.write("<br>");
+             document.write("<br>");
+             yahoo();
+             document.write("<br>");
+             hello();
+        </script>
+   </head>
+   </html>
+
+12. Functions
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>JavaScript</title>
+        <script>
+             function hello(fname = "Yahoo", lname = "Baba") {
+                 document.write("Hello" + fname + " " + lname);
+             }
+             
+             hello();
+        </script>
+   </head>
+   </html>
